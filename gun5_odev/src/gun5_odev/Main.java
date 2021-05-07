@@ -37,7 +37,7 @@ public class Main {
 		authService.signOut(user);
 		authService.signIn(user);
 
-		User googleUser = new User(1, "test", "test", "deneme@gmail.com", "123456", false);
+		User googleUser = new User(2, "google", "user", "googleuser@gmail.com", "", false);
 
 		authService.signInByGoogle(googleUser);
 
